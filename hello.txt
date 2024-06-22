@@ -1,1 +1,8 @@
 hello git
+
+the challenges faced:
+first challenge was in tasks 2 of creating a text file, my file explorer did not have the option of text document which caused me to use a notepad to create it and then save it as a text document in my plpbasicgitassignment directory.
+
+the second challenge was in tasks 4 0f connecting to github when i was typing the command 'git remote add origin <repository-url>" i replaced the url with <> instead of not including them.
+
+the third challenge was when i was pushing and instead of pushing to main i pushed to master regardless of what the instruction said because i saw my git bash branch being master, this challenge caused my readme file to be on my main branch and my text file to be on my master branch. i resolved it by the command git checkout main to switch to main branch and ls to see the existing file which was only readme file. then i had to delete it using rm on git bash then commit a message for delitation and it did not work. then tried to git push --force-u origin main and it refused with a message of "evrything is up to date" then finally opted to delete it manually and commit the changes on github then went back to git bash  then echo "hello git" > hello.txt then ls to see the file, typed in git status had to track the hello.txt file , commit it and pushed it to github and it worked. 
